@@ -24,8 +24,9 @@ pipeline {
             steps {
 
                 // Run Maven on a Unix agent.
-                sh "mvn test"
-
+                sh "mvn test -Dcucumber.filter.tags='@Story1'"
+                sh "mvn test -Dcucumber.filter.tags='@Story2'"
+                sh "mvn test -Dcucumber.filter.tags='@Story3'"
             }
         }
     }

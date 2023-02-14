@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="Runner.TestRunner" time="67.827" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="Runner.TestRunner" time="29.928" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="cucumber.options" value="--help"/>
     <property name="java.vm.version" value="15.0.1+9"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/albertodanielpicassogonzalez/Documents/2023Knowledge/LiverpoolFramework"/>
@@ -38,11 +37,12 @@
     <property name="user.timezone" value="America/Mexico_City"/>
     <property name="file.encoding" value="US-ASCII"/>
     <property name="java.specification.version" value="15"/>
+    <property name="cucumber.filter.tags" value="@Story1"/>
     <property name="user.name" value="albertodanielpicassogonzalez"/>
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--help"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.filter.tags=@Story1"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -58,9 +58,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Search Bar" name="Do a simple Search in the liverpool page." time="13.165"/>
-  <testcase classname="Search Bar" name="No articles found searching" time="10.339"/>
-  <testcase classname="Search Bar" name="Search by brand, physical characteristic, model" time="11.18"/>
-  <testcase classname="Do a searh with  brand =Samsumg, size = 48, and price = more than  $ 10 000" name="Searching a Smart TV using different filters." time="14.552"/>
-  <testcase classname="Do a register in the webpage of Liberpool" name="The user try to create a liberpool account" time="18.591"/>
+  <testcase classname="Search Bar" name="Do a simple Search in the liverpool page." time="11.734"/>
+  <testcase classname="Search Bar" name="No articles found searching" time="7.8"/>
+  <testcase classname="Search Bar" name="Search by brand, physical characteristic, model" time="10.394"/>
 </testsuite>
