@@ -105,7 +105,8 @@ public class Actions extends Base {
     }
 
     public void selectGender() throws InterruptedException {
-        webLocators.createAccountButton.click();
+
+        webLocators.checkBoxSex.click();
         Thread.sleep(300);
     }
 }
