@@ -1,3 +1,4 @@
+@Story1
 Feature: Search Bar
   As a user i need to do some validations in Liverpool webpage
 
@@ -16,5 +17,5 @@ Feature: Search Bar
   #@ignore
   Scenario: Search by brand, physical characteristic, model
     Given As a user i need to do a search using multiple parameters
-    When The user type "nintendo switch lite rosa" in the search bar
+    When The user type "Consola portatil nintendo switch lite" in the search bar
     Then The fisrt search result is the finded product with the characteristics

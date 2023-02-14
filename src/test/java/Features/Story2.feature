@@ -1,3 +1,4 @@
+@Story2
 Feature: Do a searh with  brand =Samsumg, size = 48, and price = more than  $ 10 000
 
   #@ignore
