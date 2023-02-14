@@ -1,3 +1,4 @@
+@Story1
 Feature: Search Bar
   As a user i need to do some validations in Liverpool webpage
 

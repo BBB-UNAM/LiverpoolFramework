@@ -1,3 +1,4 @@
+@Story3
 Feature:  Do a register in the webpage of Liberpool
   Scenario: The user try to create a liberpool account
 
