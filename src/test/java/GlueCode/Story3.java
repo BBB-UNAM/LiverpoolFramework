@@ -43,7 +43,8 @@ public class Story3 {
     @When("The user type the email {string} and the password {string}")
     public void the_user_type_the_email_and_the_password(String mail, String password) throws InterruptedException {
 
-        testActions.completeBaseInfo(mail,password);
+
+        testActions.completeBaseInfo(testActions.cadenaAleatoria(7) + "@mail.com", password);
         // Write code here that turns the phrase above into concrete actions
         //throw new io.cucumber.java.PendingException();
     }
