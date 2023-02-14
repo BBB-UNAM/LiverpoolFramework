@@ -4,7 +4,7 @@ Feature:  Do a register in the webpage of Liberpool
     #@ignore
     Given As a user i need to obtain a Liberpool account
     When The user open the create account page
-    And The user type the email "picassoa22@mail.com" and the password "Test557950"
+    And The user type the email "picassoa23@mail.com" and the password "Test557950"
     And the user complete the below data
       |Dato            |Valor         |
       |Nombres         |Alberto Daniel|
